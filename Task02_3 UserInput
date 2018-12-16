@@ -1,0 +1,8 @@
+public class UserInput {
+    public static final Scanner A = new Scanner (System.in);
+    
+    public static double input (String msg){
+        System.out.println(msg);
+        return A.nextDouble();
+    }
+}
