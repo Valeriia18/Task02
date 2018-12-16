@@ -1,0 +1,18 @@
+public class Calculations {
+
+    public static final int MiligramsCoefficient = 1_000_000;
+    public static final int GramsCoefficient = 1_000;
+    public static final double TonsCoefficient = 0.001;
+
+    public static double convertToMg(double a) {
+        return a * MiligramsCoefficient;
+    }
+
+    public static double convertToG(double a) {
+        return a * GramsCoefficient;
+    }
+
+    public static double convertToT(double a) {
+        return a * TonsCoefficient;
+    }
+}
