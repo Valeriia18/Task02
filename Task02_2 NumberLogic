@@ -1,0 +1,7 @@
+public class NumberLogic {
+    public static boolean compareABC(double a, double b, double c){
+        return (a == b & a == c);
+                          
+         }
+    }
+   
