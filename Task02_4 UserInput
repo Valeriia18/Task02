@@ -1,0 +1,10 @@
+public class UserInput {
+
+    public static final Scanner A = new Scanner(System.in);
+
+    public static final int Input(String msg) {
+        System.out.println(msg);
+        return A.nextInt();
+    }
+
+}
