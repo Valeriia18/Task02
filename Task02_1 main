@@ -1,0 +1,18 @@
+public class Task02_1_basic {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        double a = UserInput.input("Enter the weight of dinosaur: ");
+        
+        double m_mg = Calculations.convertToMg(a);
+        double m_t = Calculations.convertToT(a);
+        double m_g = Calculations.convertToG(a);
+        System.out.println("Масса динозавра в кг.: " + a);
+        System.out.println("Масса динозавра в мг.: " + m_mg);
+        System.out.println("Масса динозавра в т.: " + m_t);
+        System.out.println("Масса динозавра в г.: " + m_g);
+    }
+    
+}
