@@ -1,0 +1,18 @@
+    
+    public static void main(String[] args) {
+        int a = UserInput.Input("Enter 4-digits number: ");
+        byte finalResult = Calculations.isIncerasingOrDecreasingNumber(a);
+        switch (finalResult) {
+            case 1:
+                System.out.println("Возрастающая последовательность");
+                break;
+            case -1:
+                System.out.println("Убывающая последовательность");
+                break;
+            case 0:
+                System.out.println("Последовательность не определена");
+                break;
+        }
+    }
+
+}
