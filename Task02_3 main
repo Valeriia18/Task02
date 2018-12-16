@@ -1,0 +1,16 @@
+ */
+public class Task02_3_basic {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        double PI = 3.14;
+        double R2 = UserInput.input ("Enter R1: ");
+        double R1 = UserInput.input("Enter R2: ");
+
+        double S3 = Caculations.countS3 (PI, R1, R2);
+        System.out.println("Площадь кольца: " + S3);
+    }
+
+}
