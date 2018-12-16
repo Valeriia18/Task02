@@ -1,0 +1,17 @@
+public class Task02_2_basic {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       double a = UserInput.Input("Enter a: ");
+       double b = UserInput.Input("Enter b: ");
+       double c = UserInput.Input("Enter c: ");
+       
+       boolean result = NumberLogic.compareABC(a, b, c);
+       
+        String msg = result ? "Yes, numbers are similar": "No, numbers are different";
+        ConsolePrinter.print(msg);
+    }
+    
+}
